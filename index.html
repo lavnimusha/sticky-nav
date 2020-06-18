@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sticky Nav</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+        <style>
+        *{
+            margin: 0;
+
+        }
+        p{
+            padding: 1em;
+            font-family: 'Open Sans Condensed', sans-serif;
+            letter-spacing : 2px;
+        }
+        .navbar{
+            background-image: url("https://www.californiabeaches.com/wp-content/uploads/2014/09/bigs-Ocean-Beach-San-Diego-California-161828237-Large-e1518554577262-1000x609.jpg");
+            width: 100%;
+            height: 40vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        h1{
+           
+            position:relative;
+            top: 3em;
+            display: flex;
+            justify-content: center;
+            font-family: 'Lato', sans-serif;
+        }
+        nav{
+            background-color: red;
+            
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        /*ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }*/
+        li{
+            padding: 2vw;
+            text-align: center;
+            flex-grow: 1;
+            background-color: black;
+            color: white;
+            border-left: 1px solid white;
+            font-family: 'Lato', sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+
+        }
+        .content_main{
+            background-color: lightgrey;
+            padding: 1em;
+        }
+        .content{
+            width: 80vw;
+            border: 1px solid grey;
+            box-shadow: 5px 5px #888888;
+            margin: 1rem auto;
+            background-color: white;
+            padding: 1em;
+        }
+        .navprop nav{
+            position: fixed;
+            top: 0;
+            width: 100vw;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class = "navbar">
+        <h1>Sticky NavBar</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">History</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Products</a></li>
+            </ul>
+        </nav>
+        <div class = "content_main">
+            <div class = "content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Tellus in metus vulputate eu scelerisque felis imperdiet. Purus in mollis nunc sed id semper risus. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. 
+            Eu augue ut lectus arcu bibendum at varius vel pharetra. Venenatis lectus magna fringilla urna.
+             Enim neque volutpat ac tincidunt vitae. Purus gravida quis blandit turpis cursus in. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. 
+             Egestas integer eget aliquet nibh praesent. Tristique et egestas quis ipsum. Ac felis donec et odio pellentesque diam volutpat commodo sed.</p>
+
+            <p>Pretium viverra suspendisse potenti nullam ac. Turpis massa sed elementum tempus. Cras sed felis eget velit aliquet sagittis. 
+            Lacus laoreet non curabitur gravida arcu ac tortor. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum lacinia quis 
+            vel eros donec ac odio tempor orci. Pharetra diam sit amet nisl suscipit adipiscing bibendum est ultricies. Neque vitae tempus quam pellentesque nec nam.
+            Feugiat vivamus at augue eget arcu dictum. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse. Rhoncus est pellentesque elit ullamcorper dignissim cras. 
+            Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Ultricies leo integer malesuada nunc vel. Pretium vulputate sapien nec sagittis aliquam. In iaculis nunc sed augue lacus viverra.</p>
+
+            <p>Sed odio morbi quis commodo odio aenean sed adipiscing diam. Et magnis dis parturient montes nascetur ridiculus mus mauris. 
+            Vulputate eu scelerisque felis imperdiet. Morbi non arcu risus quis varius quam quisque id. Et leo duis ut diam quam. Gravida dictum fusce ut placerat orci nulla. Velit euismod in pellentesque massa 
+            placerat duis ultricies lacus sed. Odio euismod lacinia at quis risus sed. Elit sed vulputate mi sit. Risus viverra adipiscing at in tellus. Iaculis at erat pellentesque adipiscing commodo elit at.
+            Risus quis varius quam quisque id diam. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat.</p>
+
+            <p>Purus viverra accumsan in nisl nisi scelerisque eu. Malesuada pellentesque elit eget gravida cum sociis. 
+            Tellus orci ac auctor augue mauris. Ipsum a arcu cursus vitae congue mauris. Laoreet non curabitur gravida arcu ac.
+            Tincidunt arcu non sodales neque sodales. Fringilla ut morbi tincidunt augue interdum velit euismod in. Massa eget egestas purus viverra accumsan in nisl.
+            Aliquam ut porttitor leo a diam sollicitudin. Augue lacus viverra vitae congue eu. Lectus proin nibh nisl condimentum id venenatis a. Mollis nunc sed id semper risus in. 
+            Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Consequat nisl vel pretium lectus quam. Tortor consequat id porta nibh venenatis. Varius sit amet mattis vulputate enim nulla aliquet porttitor. 
+            Hendrerit dolor magna eget est lorem ipsum dolor. Neque egestas congue quisque egestas diam in arcu cursus. Massa placerat duis ultricies lacus sed turpis. Ac turpis egestas integer eget aliquet nibh.</p>
+
+            <p>Sed risus pretium quam vulputate dignissim suspendisse in est ante. Volutpat ac tincidunt vitae semper 
+            quis lectus nulla at. In iaculis nunc sed augue lacus viverra. Non pulvinar neque laoreet suspendisse interdum consectetur libero id. Ipsum a arcu cursus vitae congue mauris rhoncus aenean. 
+            Vitae congue eu consequat ac felis donec et. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Mi ipsum faucibus vitae aliquet. Purus semper eget duis at tellus at. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum. 
+            Integer quis auctor elit sed vulputate mi. Erat velit scelerisque in dictum non consectetur a erat nam. Sit amet aliquam id diam maecenas ultricies mi eget mauris. Ullamcorper morbi tincidunt ornare massa eget egestas.
+            Scelerisque purus semper eget duis at tellus at urna. 
+            Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt.Est lorem ipsum dolor sit amet consectetur. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis.</p>
+            
+            </div>
+        </div>
+        <script>
+                let navbar = document.querySelector('nav');
+
+                function handler(){
+                    if( window.scrollY > navbar.offsetTop){
+                        document.body.style.paddingTop = navbar.offsetHeight+'px';    
+                        document.body.classList.add('navprop');
+                    }
+                    else{
+                        document.body.style.paddingTop = 0;
+                        document.body.classList.remove('navprop');
+                    }
+                    
+                
+                }
+                
+                window.addEventListener('scroll', handler);
+        
+        
+        </script>
+    </body>
+</html>
